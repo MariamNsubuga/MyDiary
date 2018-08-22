@@ -1,0 +1,14 @@
+body{
+    background-color: saddlebrown;
+}
+div{
+    text-align: right;
+}
+h1{
+    font-size: 500%;
+    color: chartreuse;
+}
+#button{
+    text-align: center;
+    font-size: 200%;
+}

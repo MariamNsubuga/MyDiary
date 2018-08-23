@@ -1,0 +1,25 @@
+body{
+    background-color: maroon;
+    text-align: center;
+    
+
+}
+#dia{
+color: chartreuse;
+font-size: 500%
+}
+.create{
+    font-size: 200%;
+    color: darkgreen;
+}
+#sign{
+    font-size: 150%;
+    color: forestgreen;
+}
+label{
+    color: blue;
+    font-size:150%;
+}
+placeholder{
+    color:blue;
+}

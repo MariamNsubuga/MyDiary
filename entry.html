@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Entries</title>
+    <link rel="stylesheet" href="entry.css">
+</head>
+<body>
+   
+       <div class="tab">
+           <button class="tablinks" onclick="tabe(event,'TO DO LIST')">TO DO LIST</button>
+           <button class="tablinks" onclick="tabe(event,'REMINDER')">REMINDER</button>
+           <button class="tablinks" onclick="tabe(event,'PERSONAL MEMORANDA')">PERSONAL MEMORANDA</button>
+        </div>
+        <div>
+            <h2>Today's Date<h2>
+
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+        </div>
+        <!--to do list-->
+        
+        <div id="TO DO LIST" class="tabcontent">
+            <h3 id="p" class="list" >TO DO LIST</h3>
+            <p>Tasks to do today.</p>
+            <select  id="sele">
+                <option value="birthday">birthday</option>
+                <option value="wedding">wedding</option>
+                <option value="meeting">meeting</option>
+                <option value="others">others</option>
+                
+            </select>
+            <p id="p">Please specify others:</p>
+            <textarea name="" id="" cols="30" rows="3">
+               
+            </textarea>
+                
+          </div> 
+
+          <!--reminders-->
+          
+          <div id="REMINDER" class="tabcontent">
+            <h3 id="p">Reminders please</h3>
+            <select  id="sele">
+                <option value="birthday">birthday</option>
+                <option value="wedding">wedding</option>
+                <option value="meeting">meeting</option>
+                <option value="others">others</option>
+                
+            </select>
+            <p id="p">Please specify others:</p>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+                
+               <!-- <p>Please choose date</p>
+                <input type="date" name="date" id ="date">
+               -->
+            </div>
+
+        
+          <!--personal-->
+
+          <div id="PERSONAL MEMORANDA" class="tabcontent">
+            <h3 id="p">Personal Information</h3>
+            <label for="Passport">Passport </label><br>
+            <input type="text" placeholder="Please enter Passport number" id="box">
+            
+           <br><br>
+            <label for="Identity Card">Identity Card </label><br>
+            <input type="text" placeholder="Please enter Identity Card number" id="box">
+            <br><br>
+            <label for="credit Card">Credit Card</label><br>
+           <input type="text" placeholder="Please enter credit Card number" id="box">
+           <br><br>
+           <label for="Bank Account">Bank Account</label><br>
+            <input type="text" placeholder="Please enter Bank Account number" id="box">
+            <br><br>
+            <label for="others">others</label><br>
+            <textarea name=""  cols="30" rows="5">
+                
+            </textarea>
+          </div> 
+          <script type="text/javascript" src="entry.js"></script>
+        
+          </body>
+</html>

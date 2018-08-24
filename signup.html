@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="signup.css">
 </head>
 <body>
-    <form>
+    <form name="form">
         <div>
             <h1 id="up">Sign up</h1>
             <label >Email:</label>
@@ -30,16 +30,20 @@
 
     <label>Username:</label>
     <br> <br>
-    <input type="text" placeholder="enter username" required class="t">
+    <input type="text" placeholder="enter username" name="us" required class="t">
     <br><br><br>
 
     
+   
+    <input type ="button" value="login" onclick="check(this.form)" >
     <a href="diary.html">
-    <button type ="submit">login</button>
-</a>
+   
+    </a>
+
     </div>
 
 
     </form>
+    <script type="text/javascript" src="signup.js"></script>
 </body>
 </html>

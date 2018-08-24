@@ -16,3 +16,4 @@ function tabe(evt, words){
     evt.currentTarget.className += "active";
 
 document.getElementById("defaultOpen").click();}
+document.getElementById("firstopen").click();

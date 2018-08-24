@@ -5,6 +5,7 @@ background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
+ 
 }
 form{
     text-align: center;
@@ -23,10 +24,24 @@ label{
     text-align: center;
     /* comment  */
     padding-right: 5%;
-    width: 50%;
+    width: 30%;
     height: 100%;
    /* to be used for the entry  padding-top: 200%;*/
    padding-top: 2%;
    color: darkgreen;
    font-size: 100%;
+   border-radius: 5%;
+}
+.inner{
+    background-color:blueviolet;
+    padding: 5%;
+    width: 35%;
+    position: center;
+    height: -10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    height: 5%;
 }

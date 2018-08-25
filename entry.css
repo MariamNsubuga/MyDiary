@@ -79,7 +79,7 @@ img{
     @keyframes fadeEffect{
         from {opacity: 0;}
         to {opacity: 1;}}
-    }
+    
     /* formating the specify textbox*/
     #others{
         padding-top: 10%;

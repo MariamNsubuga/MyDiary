@@ -1,5 +1,5 @@
 body{
-    background-color: maroon;
+   
     text-align: center;
     
 background: url(images/stil-564510-unsplash.jpg) no-repeat center center fixed;
@@ -26,18 +26,54 @@ color: chartreuse;
 font-size: 500%
 }
 .create{
-    font-size: 200%;
+    font-size: 250%;
     color: darkgreen;
 }
 #sign{
-    font-size: 150%;
-    color: forestgreen;
+    font-size: 200%;
+    color: red;
 }
 label{
     color: blue;
-    font-size:150%;
+    font-size:200%;
 }
-placeholder{
-    color:blue;
+p{
+    color:green;
+
+}
+#box{
+   
+    font-size: 150%;
+  
+}
+/* formatting textboxes */
+input[type=text ] {
+   border: 2px ;
+   width:20%;
+   border-radius: 4px;
+   margin: 8px 0;
+   padding: 8px;
+   color: cornflowerblue;
+   box-sizing: border-box;
+
+}
+input[type = password]{
+    border: 2px ;
+    width:20%;
+    border-radius: 4px;
+    margin: 8px 0;
+    padding: 8px;
+    box-sizing: border-box;
+    color: cornflowerblue;
+}
+::placeholder{
+    color:burlywood;
+}
+/* formating login buttons */
+.button{
+border: none;
+padding: 15px 40px;
+font-size: 150%;
+color: blueviolet;
 
 }

@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    
     background: url(images/rawpixel-589078-unsplash.jpg) no-repeat center center fixed;
 background-size: cover;
   -moz-background-size: cover;
@@ -7,10 +7,12 @@ background-size: cover;
   -webkit-background-size: cover;
  
 }
+
 form{
     text-align: center;
 position: relative;
 }
+
 #up{
     font-size: 500%;
     color: brown;
@@ -20,21 +22,22 @@ label{
     color: darkmagenta;
     text-align: left;
 }
-.t{
+/*.t{
     text-align: center;
     /* comment  */
-    padding-right: 5%;
-    width: 30%;
+   /* padding-right: 10%;
+    width: 50%;
     height: 100%;
    /* to be used for the entry  padding-top: 200%;*/
-   padding-top: 2%;
+    /*padding-top: 2%;
    color: darkgreen;
    font-size: 100%;
    border-radius: 5%;
-}
+} */
+/*
 .inner{
-    background-color:blueviolet;
-    padding: 5%;
+    
+    padding: 0% 0px;
     width: 35%;
     position: center;
     height: -10%;
@@ -42,6 +45,37 @@ label{
     margin-left: auto;
     margin-right: auto;
 }
+*/
 div{
     height: 5%;
 }
+input[type=text ] {
+    border: 2px ;
+    width:30%;
+    border-radius: 4px;
+    margin: 8px 0;
+    padding:10px 10px;
+    color: cornflowerblue;
+    box-sizing: border-box;
+    font-size: 100%;
+ }
+ input[type = password]{
+     border: 2px ;
+     width:30%;
+     border-radius: 4px;
+     margin: 8px 0;
+     padding: 10px 10px;
+     box-sizing: border-box;
+     color: cornflowerblue;
+     font-size: 100%;
+ }
+ ::placeholder{
+     color:burlywood;
+ }
+ .button{
+    border: none;
+    padding: 15px 40px;
+    font-size: 150%;
+    color: blueviolet;
+    
+    }

@@ -14,10 +14,12 @@
            <button class="tablinks" onclick="tabe(event,'REMINDER')">REMINDER</button>
            <button class="tablinks" onclick="tabe(event,'PERSONAL MEMORANDA')">PERSONAL MEMORANDA</button>
         </div>
-        <div>
-            <h2>Today's Date<h2>
+        <div id="date">
+            <h2>Today's Date</h2>
+                <!--<input type="button" value="Date" id="demo">-->
 
 <p id="demo"></p>
+
 
 <script>
 var d = new Date();
@@ -28,7 +30,7 @@ document.getElementById("demo").innerHTML = d;
         
         <div id="TO DO LIST" class="tabcontent">
             <h3 id="p" class="list" >TO DO LIST</h3>
-            <p>Tasks to do today.</p>
+            <p id="e">Tasks to do today.</p>
             <select  id="sele">
                 <option value="birthday">birthday</option>
                 <option value="wedding">wedding</option>
@@ -36,8 +38,8 @@ document.getElementById("demo").innerHTML = d;
                 <option value="others">others</option>
                 
             </select>
-            <p id="p">Please specify others:</p>
-            <textarea name="" id="" cols="30" rows="3">
+            <p id="p" class="other">Please specify others:</p>
+            <textarea name="" spellcheck="false" id="" cols="30" rows="3">
                
             </textarea>
                 
@@ -46,7 +48,7 @@ document.getElementById("demo").innerHTML = d;
           <!--reminders-->
           
           <div id="REMINDER" class="tabcontent">
-            <h3 id="p">Reminders please</h3>
+            <h3 id="p" class="list">Reminders please</h3>
             <select  id="sele">
                 <option value="birthday">birthday</option>
                 <option value="wedding">wedding</option>
@@ -54,8 +56,8 @@ document.getElementById("demo").innerHTML = d;
                 <option value="others">others</option>
                 
             </select>
-            <p id="p">Please specify others:</p>
-            <textarea name="" id="" cols="30" rows="5"></textarea>
+            <p id="p" class="other">Please specify others:</p>
+            <textarea name="" id="" spellcheck="false" cols="30" rows="5"></textarea>
                 
                <!-- <p>Please choose date</p>
                 <input type="date" name="date" id ="date">
@@ -66,22 +68,22 @@ document.getElementById("demo").innerHTML = d;
           <!--personal-->
 
           <div id="PERSONAL MEMORANDA" class="tabcontent">
-            <h3 id="p">Personal Information</h3>
+            <h3 id="p" class="list">Personal Information</h3>
             <label for="Passport">Passport </label><br>
-            <input type="text" placeholder="Please enter Passport number" id="box">
+            <input type="text" spellcheck="false" placeholder="Please enter Passport number" id="box">
             
            <br><br>
             <label for="Identity Card">Identity Card </label><br>
-            <input type="text" placeholder="Please enter Identity Card number" id="box">
+            <input type="text" spellcheck="false" placeholder="Please enter Identity Card number" id="box">
             <br><br>
             <label for="credit Card">Credit Card</label><br>
-           <input type="text" placeholder="Please enter credit Card number" id="box">
+           <input type="text" spellcheck="false" placeholder="Please enter credit Card number" id="box">
            <br><br>
            <label for="Bank Account">Bank Account</label><br>
-            <input type="text" placeholder="Please enter Bank Account number" id="box">
+            <input type="text" spellcheck="false" placeholder="Please enter Bank Account number" id="box">
             <br><br>
             <label for="others">others</label><br>
-            <textarea name=""  cols="30" rows="5">
+            <textarea name="" spellcheck="false" cols="30" rows="5">
                 
             </textarea>
           </div> 

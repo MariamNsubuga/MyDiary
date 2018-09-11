@@ -47,7 +47,7 @@ img{
        background-color: #ccc;
     }
     .tabcontent{
-      
+      text-align: center;
         display: none;
         padding: 6px 12px;
         border: 1px  #ccc;
@@ -84,6 +84,7 @@ img{
     }
     #e{
         color: crimson;
+        text-align: center;
     }
     .other{
         color: indigo;
@@ -99,4 +100,11 @@ img{
         ::placeholder{
             color:burlywood;
             font-size: 150%;
+        }
+        #p a:hover {
+            border-bottom: 3px solid red;
+        }
+        
+        #p a.active {
+            border-bottom: 3px solid red;
         }

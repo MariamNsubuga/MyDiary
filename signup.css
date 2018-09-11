@@ -1,11 +1,17 @@
 body{
-    
+    text-align: center;
     background: url(images/jess-watters-496642-unsplash.jpg) no-repeat center center fixed;
 background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
- 
+ /*text-align: center;
+    
+background: url(images/stil-564510-unsplash.jpg) no-repeat center center fixed;
+background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;*/
 }
 
 form{

@@ -102,5 +102,12 @@ img{
             color:burlywood;
             font-size: 150%;
         }
-        
+        .button{
+            border: none;
+            padding: 15px 40px;
+            font-size: 150%;
+            color: blueviolet;
+            
+            }
+            
         

@@ -12,8 +12,10 @@
        <div class="tab">
            <button class="tablinks" onclick="tabe(event,'TO DO LIST')" id="firstopen">TO DO LIST</button>
            <button class="tablinks" onclick="tabe(event,'REMINDER')">REMINDER</button>
-           <button class="tablinks" onclick="tabe(event,'PERSONAL MEMORANDA')">PERSONAL MEMORANDA</button>
+         <button class="tablinks" onclick="tabe(event,'PERSONAL MEMORANDA')">PERSONAL MEMORANDA</button>
+         <button class="tablinks" id="my"onclick="tabe(event,'MY DIARY CONTENT')"><a href="MyDiaryContent.html">MY DIARY CONTENT</a></button>
         </div>
+
         <div id="date">
             <h2>Today's Date</h2>
                 <!--<input type="button" value="Date" id="demo">-->
@@ -42,7 +44,10 @@ document.getElementById("demo").innerHTML = d;
             <textarea name="" spellcheck="false" id="" cols="30" rows="3">
                
             </textarea>
-                
+            <br><br>
+            <div >
+            <input type ="button" class="button" value="save" onclick="save(this.page)"  >  
+        </div> 
           </div> 
 
           <!--reminders-->
@@ -62,6 +67,10 @@ document.getElementById("demo").innerHTML = d;
                <!-- <p>Please choose date</p>
                 <input type="date" name="date" id ="date">
                -->
+               <br><br>
+               <div >
+               <input type ="button" class="button" value="save" onclick="save(this.page)" >
+            </div> 
             </div>
 
         
@@ -86,7 +95,13 @@ document.getElementById("demo").innerHTML = d;
             <textarea name="" spellcheck="false" cols="30" rows="5">
                 
             </textarea>
+            <br>
+            <div >
+            <input type ="button" class="button" value="save"  onclick="save(this.page)"> 
+        </div>
           </div> 
+          
+         
           <script type="text/javascript" src="entry.js"></script>
         
           </body>

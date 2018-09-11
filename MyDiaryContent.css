@@ -1,0 +1,45 @@
+.tab{
+    
+    
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color:#f1f1f1;
+}
+/*styling buttons that open  tabs*/
+.tab button{
+   
+    background-color: inherit;
+    float: left;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding:14px 16px;
+    color: red;
+    font-size: 100%;
+}
+.tab button:hover {
+    /*  background-color:gray;*/
+    background-color: #ddd;
+    border-bottom: 3px solid black;
+  }
+  
+  /* Create an active/current "tab button" class */
+     .tab button.active {
+      border-bottom: 3px solid black;
+         background-color: #ccc;
+      }
+      .tabcontent{
+        text-align: center;
+          display: none;
+          padding: 6px 12px;
+          border: 1px  #ccc;
+          border-top:none;
+          animation:fadeEffect 1s; /* fade effect taking 1 second*/
+      }
+      body {font-family: "Lato", sans-serif;
+        background: url(images/jess-watters-496642-unsplash.jpg) no-repeat center center fixed;
+       background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         -webkit-background-size: cover;
+       }

@@ -17,3 +17,6 @@ function tabe(evt, words){
 
 document.getElementById("defaultOpen").click();}
 document.getElementById("firstopen").click();
+function save(form){
+    window.location.href=('MyDiaryContent.html') 
+}
